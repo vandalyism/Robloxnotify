@@ -5,8 +5,8 @@ from datetime import datetime
 import pytz
 
 # ---------------- CONFIG ----------------
-ROBLOX_USER_IDS = ["761047329", "3570016078", "417699108", "8082787633", "8406734576", "7851813003"]
-DISCORD_WEBHOOK_URL = os.environ.get("https://discord.com/api/webhooks/1455838087639732286/7FSUVyFG6O6I8cguJLx81lG8fqR7i-8ZcVeH_NvibDeX0aM9PmM9R-AdJglOQmMavmZ4")
+ROBLOX_USER_IDS = ["761047329", "3570016078", "8406734576", "3264520888"]
+DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 CHECK_INTERVAL = 20  # seconds
 TIMEZONE = pytz.timezone("Europe/Berlin")
 UPDATE_INTERVAL = 5  # seconds between live duration edits
