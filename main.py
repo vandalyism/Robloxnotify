@@ -5,7 +5,7 @@ from datetime import datetime
 import pytz
 
 # ---------------- CONFIG ----------------
-ROBLOX_USER_IDS = ["761047329", "3570016078", "8406734576", "7851813003", "8082787633", "417699108"]
+ROBLOX_USER_IDS = ["761047329", "3570016078", "8406734576", "7851813003", "7946437030", "8082787633", "417699108"]
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 CHECK_INTERVAL = 20  # seconds
 TIMEZONE = pytz.timezone("Europe/Berlin")
